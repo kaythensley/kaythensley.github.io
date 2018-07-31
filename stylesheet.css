@@ -1,2 +1,39 @@
-font-family: 'Modern Antiqua', cursive;
-font-family: 'PT Sans', sans-serif;
+body {
+  font-family: 'Modern Antiqua', cursive;
+  font-family: 'PT Sans', sans-serif;
+  background-color: lightgray;
+  margin: 0;
+  text-decoration: none;
+  margin-top: 80px;
+  height: 1000px;
+  overflow: auto;
+
+}
+
+nav {
+  background-color: #66a0b3;
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  z-index: 1;
+
+
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+}
+nav a:hover {
+  border-bottom: 3px solid 	#2b4b56;
+  text-decoration: none;
+}
